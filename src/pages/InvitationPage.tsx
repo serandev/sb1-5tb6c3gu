@@ -23,7 +23,7 @@ const InvitationPage: React.FC = () => {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-background">
         <div className="text-center">
-          <h2 className="font-serif text-3xl text-primary animate-pulse">
+          <h2 className="font-himelody text-3xl text-primary animate-pulse">
             염세란 & 김선준
           </h2>
         </div>
