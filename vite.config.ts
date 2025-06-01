@@ -1,16 +1,12 @@
-import { defineConfig, loadEnv } from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // `.env`, `.env.production` 등 읽기
-  const env = loadEnv(mode, process.cwd());
-
-  const isDev = mode === 'development';
+  // `production` 모드일 경우 GitHub Pages용 base 경로 설정
+  const isProd = mode === 'production';
 
   return {
-    // ✅ StackBlitz(dev)에서는 '/', GitHub Pages(prod)에서는 설정된 base 사용
-    base: isDev ? '/' : env.VITE_PUBLIC_BASE || '/',
+    base: isProd ? '/sb1-5tb6c3gu/' : '/',   // ✔️ 배포 시 base 경로 설정
     plugins: [react()],
     optimizeDeps: {
       exclude: ['lucide-react'],

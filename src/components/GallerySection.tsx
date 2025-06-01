@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    src: 'https://serandev.github.io/serena-invitation/20250424_SR_SJ_0.jpg',
+    src: 'https://serandev.github.io/serena-invitation/20250424_SR_SJ_1.jpg',
     alt: 'Couple at sunset',
   },
   {
