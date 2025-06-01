@@ -31,8 +31,8 @@ const DateSection: React.FC = () => {
     <section ref={sectionRef} className="py-20 bg-secondary/5 opacity-0">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          {/* <h2 className="font-serif text-3xl md:text-4xl text-primary mb-12"> */}
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-12 text-center">
+          {/* <h2 className="font-himelody text-3xl md:text-4xl text-primary mb-12"> */}
+          <h2 className="font-himelody text-3xl md:text-4xl text-primary mb-12 text-center">
             날짜
           </h2>
 
@@ -43,7 +43,7 @@ const DateSection: React.FC = () => {
               <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-8 h-8 text-accent" />
               </div>
-              {/* <h3 className="font-serif text-xl text-primary mb-2">일정</h3> */}
+              {/* <h3 className="font-himelody text-xl text-primary mb-2">일정</h3> */}
               <p className="text-secondary text-lg">2025년 9월 20일</p>
               <p className="text-secondary/80 text-sm">토요일</p>
             </div>

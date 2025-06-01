@@ -100,7 +100,7 @@ const GallerySection: React.FC = () => {
       <section ref={sectionRef} className="py-20 bg-primary/5 opacity-0">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="font-serif text-3xl md:text-4xl text-primary mb-12">
+            <h2 className="font-himelody text-3xl md:text-4xl text-primary mb-12">
               우리의 사진들
             </h2>
 

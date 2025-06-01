@@ -66,13 +66,13 @@ const CountdownSection: React.FC<CountdownSectionProps> = ({ weddingDate }) => {
     <section ref={sectionRef} className="py-5 bg-accent/5 opacity-0">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-16">
+          <h2 className="font-himelody text-3xl md:text-4xl text-primary mb-16">
             결혼식까지 남은 시간
           </h2>
 
           <div className="grid grid-cols-2 gap-8">
             <div className="bg-background rounded-lg shadow-md p-6">
-              <div className="text-4xl md:text-5xl font-serif text-accent mb-2">
+              <div className="text-4xl md:text-5xl font-himelody text-accent mb-2">
                 {timeLeft.days}
               </div>
               <p className="text-secondary uppercase text-sm tracking-wider">
@@ -81,7 +81,7 @@ const CountdownSection: React.FC<CountdownSectionProps> = ({ weddingDate }) => {
             </div>
 
             <div className="bg-background rounded-lg shadow-md p-6">
-              <div className="text-4xl md:text-5xl font-serif text-accent mb-2">
+              <div className="text-4xl md:text-5xl font-himelody text-accent mb-2">
                 {timeLeft.hours}
               </div>
               <p className="text-secondary uppercase text-sm tracking-wider">

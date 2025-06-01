@@ -27,7 +27,7 @@ const MessageSection: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-accent/5 opacity-0">
+    <section ref={sectionRef} className="pt-20 pb-5 bg-accent/5 opacity-0">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-8">
