@@ -34,11 +34,11 @@ const InvitationHeader: React.FC = () => {
             fill="currentColor"
           />
           <h1
-            className={`font-serif text-primary transition-all duration-300 ${
+            className={`font-himelody text-primary transition-all duration-300 ${
               scrolled ? 'text-lg' : 'text-xl'
             }`}
           >
-            김선준 & 염세란
+            염세란 & 김선준
           </h1>
           <Heart
             className={`text-accent ${

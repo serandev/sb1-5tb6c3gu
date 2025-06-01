@@ -8,7 +8,7 @@ const InvitationFooter: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="flex justify-center items-center gap-2 mb-6">
             <Heart className="text-accent w-5 h-5" fill="currentColor" />
-            <h3 className="font-serif text-xl text-primary">김선준 & 염세란</h3>
+            <h3 className="font-himelody text-xl text-primary">염세란 & 김선준</h3>
             <Heart className="text-accent w-5 h-5" fill="currentColor" />
           </div>
 

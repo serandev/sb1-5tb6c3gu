@@ -52,7 +52,7 @@ const MessageSection: React.FC = () => {
               </div>
             </div>
 
-            <div className="font-serif text-secondary/90 text-lg md:text-xl italic mt-4">
+            <div className="font-gowunbatang text-secondary/90 text-lg md:text-xl italic mt-4">
               <p>저희 두 사람의 뜻에 따라</p>
               <p>양가 가족만 모시고</p>
               <p className="mb-6">간소하게 식을 올리게 되었습니다.</p>
@@ -62,10 +62,15 @@ const MessageSection: React.FC = () => {
               <p>그 소중한 마음 오래 감사하며 간직하겠습니다.</p>
             </div>
 
-            <div className="mt-8 text-primary font-serif text-xl">
+            <div className="mt-8 text-primary font-gowunbatang text-xl">
               <div className="mt-2 text-2xl">
-                <p>장남 김선준</p>
-                <p>염성권 신영숙의 장녀 염세란</p>
+                <p className="items-center w-full">
+                <span className="relative bottom-[0.3em] text-sm mr-1">(故)</span>
+                  김치문·한정의 장남 김선준
+                </p>
+              </div>
+              <div className="mt-2 text-2xl">
+                <p>&nbsp;염성권·신영숙의 장녀 염세란</p>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ const InvitationPage: React.FC = () => {
       <div className="fixed inset-0 flex items-center justify-center bg-background">
         <div className="text-center">
           <h2 className="font-serif text-3xl text-primary animate-pulse">
-            김선준 & 염세란
+            염세란 & 김선준
           </h2>
         </div>
       </div>
@@ -38,11 +38,11 @@ const InvitationPage: React.FC = () => {
         <CoupleSection />
         <MessageSection />
         <DateSection />
-        <CountdownSection weddingDate="2025-06-15T16:00:00" />
+        <CountdownSection weddingDate="2025-09-20T12:00:00" />
         <LocationSection />
         <GallerySection />
       </main>
-      <InvitationFooter />
+      {/* <InvitationFooter /> */}
     </div>
   );
 };
