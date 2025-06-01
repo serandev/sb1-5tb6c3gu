@@ -6,16 +6,22 @@ const AccountItem: React.FC<{
     name: string;
     bank: string;
     number: string;
-}> = ({ station, name, bank, number }) => {
+    isFirst?: boolean;
+}> = ({ station, name, bank, number, isFirst = false }) => {
     const copyToClipboard = () => {
         navigator.clipboard.writeText(number);
         alert(`계좌번호가 복사되었습니다.\n${number}`);
     };
 
     return (
-        <div className="flex justify-between items-center py-2 border-b border-gray-200">
+        <div
+            className={`flex justify-between items-center py-2 border-b border-gray-200 ${
+                isFirst ? 'border-t' : ''
+            }`}
+        >
       <span className="text-base md:text-lg">
-        {station} <strong>{name}</strong> - {bank} {number}
+        {station}{' '}
+          <strong className="font-semibold">{name}</strong> · {bank} {number}
       </span>
             <button
                 onClick={copyToClipboard}
@@ -75,6 +81,7 @@ const MoneySection: React.FC = () => {
                         name="한정"
                         bank="우리은행"
                         number="1002554010654"
+                        isFirst={true}
                     />
                 </CollapsibleBox>
 
@@ -88,6 +95,7 @@ const MoneySection: React.FC = () => {
                         name="염성권"
                         bank="우리은행"
                         number="1002554010654"
+                        isFirst={true}
                     />
                     <AccountItem
                         station="어머니"
