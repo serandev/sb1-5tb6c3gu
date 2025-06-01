@@ -64,8 +64,8 @@ const CollapsibleBox: React.FC<{
 );
 
 const MoneySection: React.FC = () => {
-    const [showGroom, setShowGroom] = useState(false);
-    const [showBride, setShowBride] = useState(false);
+    const [showGroom, setShowGroom] = useState(true);
+    const [showBride, setShowBride] = useState(true);
 
     return (
         <section className="bg-primary/5 py-20 mb-20 px-20">
