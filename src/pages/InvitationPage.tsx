@@ -6,7 +6,7 @@ import LocationSection from '../components/LocationSection';
 import MessageSection from '../components/MessageSection';
 import CountdownSection from '../components/CountdownSection';
 import InvitationHeader from '../components/InvitationHeader';
-import InvitationFooter from '../components/InvitationFooter';
+import Money from "../components/Money.tsx";
 
 const InvitationPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -41,6 +41,7 @@ const InvitationPage: React.FC = () => {
         <CountdownSection weddingDate="2025-09-20T12:00:00" />
         <LocationSection />
         <GallerySection />
+        <Money />
       </main>
       {/* <InvitationFooter /> */}
     </div>

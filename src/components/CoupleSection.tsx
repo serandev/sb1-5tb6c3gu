@@ -33,20 +33,25 @@ const CoupleSection: React.FC = () => {
       style={{
         backgroundImage:
           "url('https://serandev.github.io/serena-invitation/20250424_SR_SJ_0.jpg')",
+        backgroundPosition: 'center 42%',
       }}
     >
-      <div className="container mx-auto mt-10 px-9 py-3 bg-background/70 backdrop-blur-sm">
+      <div className="container mx-auto mt-10 px-4 py-8 bg-background/70 backdrop-blur-sm">
         <div className="max-w-3xl mx-auto text-center">
           {/* <p className="text-accent font-light mb-4 tracking-widest"> */}
             {/* <strong>저희 결혼합니다</strong> */}
           {/* </p> */}
-          <h1 className="font-himelody text-5xl md:text-7xl text-primary mb-8">
+          <h1 className="font-himelody text-5xl md:text-7xl text-gray-300 mb-8"
+              style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.6)' }}>
             저희 결혼합니다
           </h1>
-          <p className="text-lg md:text-xl text-secondary">
-            9월 20일 토요일
-            <br />
-            서울 수서에서 결혼합니다.
+          <p className="text-2xl font-himelody md:text-3xl text-gray-300"
+              style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.6)' }}>
+            <strong>
+              9월 20일 토요일
+              <br />
+              서울, 수서
+            </strong>
           </p>
         </div>
       </div>

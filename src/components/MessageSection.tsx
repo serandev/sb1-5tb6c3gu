@@ -58,8 +58,8 @@ const MessageSection: React.FC = () => {
               <p className="mb-6">간소하게 식을 올리게 되었습니다.</p>
               <p>많은 분들을 초대하지 못하는 점</p>
               <p className="mb-6">깊은 양해를 구합니다.</p>
-              <p>멀리서라도 저희의 새로운 출발을 마음속으로 축하해 주신다면,</p>
-              <p>그 소중한 마음 오래 감사하며 간직하겠습니다.</p>
+              <p><span>멀리서라도 저희의 새로운 출발을</span> <span>마음속으로 축하해 주신다면,</span></p>
+              <p><span>그 소중한 마음</span> <span>오래 감사하며 간직하겠습니다.</span></p>
             </div>
 
             <div className="mt-8 text-primary font-gowunbatang text-xl">
