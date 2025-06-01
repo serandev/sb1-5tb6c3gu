@@ -19,10 +19,15 @@ const AccountItem: React.FC<{
                 isFirst ? 'border-t' : ''
             }`}
         >
-      <span className="text-base md:text-lg">
-        {station}{' '}
-          <strong className="font-semibold">{name}</strong> · {bank} {number}
-      </span>
+            <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
+                <div className="text-base md:text-lg">
+                    {station}{' '}
+                    <strong className="font-semibold">{name}</strong>
+                </div>
+                <div className="text-base md:text-lg md:mt-0 mt-1">
+                    {bank} {number}
+                </div>
+            </div>
             <button
                 onClick={copyToClipboard}
                 className="ml-4 flex items-center gap-1 text-sm text-primary hover:text-accent"
