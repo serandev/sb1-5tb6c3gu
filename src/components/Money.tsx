@@ -85,7 +85,7 @@ const MoneySection: React.FC = () => {
                         station="어머니"
                         name="한정"
                         bank="우리은행"
-                        number="1002554010654"
+                        number="1002057722134"
                         isFirst={true}
                     />
                 </CollapsibleBox>
