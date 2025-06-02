@@ -39,13 +39,14 @@ const DateSection: React.FC = () => {
           {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
           <div className="text-center">
             {/* <div className="bg-background rounded-lg shadow-md p-8 transform transition-transform duration-300 hover:scale-105"> */}
-            <div className="bg-secondary/5 p-8 rounded-lg shadow-md inline-block transform transition-transform duration-300 hover:scale-105">
+            <div
+                className="bg-secondary/5 px-8 py-6 rounded-lg shadow-md inline-block transform transition-transform duration-300 hover:scale-105">
               <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
-                <Calendar className="w-8 h-8 text-accent" />
+                <Calendar className="w-8 h-8 text-accent"/>
               </div>
               {/* <h3 className="font-himelody text-xl text-primary mb-2">일정</h3> */}
-              <p className="text-secondary text-lg">2025년 9월 20일</p>
-              <p className="text-secondary/80 text-sm">토요일</p>
+              <p className="text-secondary/80 text-lg">2025년 9월 20일</p>
+              <p className="text-secondary/80 text-m">토요일 낮 12시</p>
             </div>
           </div>
         </div>
